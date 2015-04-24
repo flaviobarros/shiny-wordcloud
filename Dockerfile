@@ -25,9 +25,10 @@ RUN wget --no-verbose https://s3.amazonaws.com/rstudio-shiny-server-os-build/ubu
 
 RUN R -e "install.packages(c('shiny', 'rmarkdown'), repos='http://cran.rstudio.com/')"
 
+COPY shiny-server.conf  /etc/shiny-server/shiny-server.conf
 RUN cp -R /usr/local/lib/R/site-library/shiny/examples/* /srv/shiny-server/
 
-EXPOSE 80 
+EXPOSE 3838
 
 COPY shiny-server.sh /usr/bin/shiny-server.sh
 
