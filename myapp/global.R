@@ -14,7 +14,7 @@ getTermMatrix <- memoise(function(book) {
   if (!(book %in% books))
     stop("Unknown book")
   
-  text <- readLines(sprintf("./%s.txt.gz", book),
+  text <- readLines(sprintf("./%s.txt", book),
                     encoding="UTF-8")
   
   myCorpus = Corpus(VectorSource(text))
