@@ -27,7 +27,7 @@ RUN R -e "install.packages(c('shiny', 'rmarkdown'), repos='http://cran.rstudio.c
 
 RUN cp -R /usr/local/lib/R/site-library/shiny/examples/* /srv/shiny-server/
 
-EXPOSE 3838
+EXPOSE 80 
 
 COPY shiny-server.sh /usr/bin/shiny-server.sh
 
