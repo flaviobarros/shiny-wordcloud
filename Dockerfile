@@ -1,6 +1,6 @@
 FROM r-base:latest
 
-MAINTAINER Winston Chang "winston@rstudio.com"
+MAINTAINER Flavio Barros "flaviommbarros@gmail.com"
 
 RUN apt-get update && apt-get install -y \
     sudo \
