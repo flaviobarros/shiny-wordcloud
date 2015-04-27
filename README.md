@@ -1,7 +1,7 @@
 Dockerized Shiny App
 =======================
 
-This is the Dockerized Shiny App Worcloud [Wordcloud](http://shiny.rstudio.com/gallery/word-cloud.html)
+This is the Dockerized Shiny App [Wordcloud](http://shiny.rstudio.com/gallery/word-cloud.html)
 
 This Dockerfile is based on Debian "testing" and r-base image.
 
