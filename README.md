@@ -26,7 +26,7 @@ docker run --rm -p 3838:80 flaviobarros/shiny-worcloud
 
 ## Intented usage:
 
-This project can used as a start point to build any dockerized shiny app, the could be distributed at any server running docker.
+This project can be used as a start point to build any dockerized shiny app that could be distributed at any server running docker.
 Possible use cases are:
 
 * Deploy a single Shiny App at AWS, Googlge Compute Engine, Azure or a private server with docker.
