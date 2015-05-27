@@ -47,7 +47,7 @@ At this poit you will be able to run your app, just like Wordcloud
 
 ## Deploy with a docker based PaaS
 
-If you have a PaaS with Dockerfiles support you can git push this image. Soon i will provide instructios to deploy with dokku.
+If you have a PaaS with Dockerfiles support, like [Deis](http://deis.io/) or [Dokku](https://github.com/progrium/dokku), you can git push this image. I just wrote a post with further instructions: [Git pushing Shiny Apps with docker and dokku](http://www.flaviobarros.net/2015/05/11/git-pushing-shiny-apps-with-docker-dokku/)
 
 ## IMPORTANT
 
