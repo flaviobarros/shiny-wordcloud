@@ -29,8 +29,8 @@ docker run --rm -p 3838:80 flaviobarros/shiny-worcloud
 This project can be used as a start point to build any dockerized shiny app that could be distributed at any server running docker.
 Possible use cases are:
 
-* Deploy a single Shiny App at AWS, Googlge Compute Engine, Azure or a private server with docker.
-* Deploy Shiny Apps at a docker based PaaS as dokku. 
+* Deploy a single Shiny App at AWS, Google Compute Engine, Azure or a private server with docker.
+* Deploy Shiny Apps at a docker based PaaS as [dokku](https://github.com/progrium/dokku). 
 
 ## Building your own Shiny App:
 
@@ -43,7 +43,7 @@ After developing your Shiny App, you will need two files for deployment: ui.R an
 docker build -t yourname/yourappname .
 ```
 
-At this poit you will be able to run your app, just like Wordcloud
+At this poit you will be able to run your app, just like Wordcloud.
 
 ## Deploy with a docker based PaaS
 
@@ -51,6 +51,6 @@ If you have a PaaS with Dockerfiles support, like [Deis](http://deis.io/) or [Do
 
 ## IMPORTANT
 
-This project is not an alternative Shiny Server. It exposes PORT 80 (not 3838) and is intented to serve only single apps to easy deployment.
+This project is not an alternative Shiny Server. It exposes PORT 80 (not 3838) and is intented to serve only single shiny apps.
 
 
