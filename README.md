@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/34694294.svg)](https://zenodo.org/badge/latestdoi/34694294)
+
 Dockerized Shiny App
 =======================
 
