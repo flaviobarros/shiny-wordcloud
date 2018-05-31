@@ -1,5 +1,4 @@
 [![DOI](https://zenodo.org/badge/34694294.svg)](https://zenodo.org/badge/latestdoi/34694294)
-[![Github All Releases](https://img.shields.io/github/downloads/atom/atom/total.svg)](https://github.com/flaviobarros/shiny-wordcloud)
 
 
 Dockerized Shiny App
