@@ -1,0 +1,17 @@
+services:
+  - docker
+
+env:
+  global:
+    - COMMIT=${TRAVIS_COMMIT::8}
+
+before_install:
+  - docker build -t trivy-ci-test:${COMMIT} .
+  - wget https://github.com/knqyf263/trivy/releases/download/v0.0.13/trivy_0.0.13_Linux-64bit.tar.gz
+  - tar zxvf trivy_0.0.13_Linux-64bit.tar.gz
+script:
+  - ./trivy --exit-code 0 --severity HIGH --quiet trivy-ci-test:${COMMIT}
+  - ./trivy --exit-code 1 --severity CRITICAL --quiet trivy-ci-test:${COMMIT}
+cache:
+  directories:
+    - $HOME/.cache/trivy
