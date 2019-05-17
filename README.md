@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/flaviobarros/shiny-wordcloud.svg?branch=master)](https://travis-ci.org/flaviobarros/shiny-wordcloud)
 [![DOI](https://zenodo.org/badge/34694294.svg)](https://zenodo.org/badge/latestdoi/34694294)
 [![](https://images.microbadger.com/badges/image/flaviobarros/shiny-wordcloud.svg)](https://microbadger.com/images/flaviobarros/shiny-wordcloud "Get your own image badge on microbadger.com")
 [![](https://images.microbadger.com/badges/version/flaviobarros/shiny-wordcloud.svg)](https://microbadger.com/images/flaviobarros/shiny-wordcloud "Get your own version badge on microbadger.com")
