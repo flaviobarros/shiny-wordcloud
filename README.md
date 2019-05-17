@@ -58,4 +58,6 @@ If you have a PaaS with Dockerfiles support, like [Deis](http://deis.io/) or [Do
 
 This project is not an alternative Shiny Server. It exposes PORT 80 (not 3838) and is intented to serve only single shiny apps.
 
+## END
+
 
