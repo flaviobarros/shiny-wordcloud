@@ -54,6 +54,10 @@ At this poit you will be able to run your app, just like Wordcloud.
 
 If you have a PaaS with Dockerfiles support, like [Deis](http://deis.io/) or [Dokku](https://github.com/progrium/dokku), you can git push this image. I just wrote a post with further instructions: [Git pushing Shiny Apps with docker and dokku](https://www.rmining.com.br/2015/05/11/git-pushing-shiny-apps-with-docker-dokku/)
 
+## Stargazers over time
+
+[![Stargazers over time](https://starchart.cc/flaviobarros/shiny-wordcloud.svg)](https://starchart.cc/flaviobarros/shiny-wordcloud)
+
 ## IMPORTANT
 
 This project is not an alternative Shiny Server. It exposes PORT 80 (not 3838) and is intented to serve only single shiny apps.
